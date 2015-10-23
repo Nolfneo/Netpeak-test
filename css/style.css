@@ -1,0 +1,17 @@
+body{
+	background-image: url(../img/back.jpg);
+	background-repeat: repeat;
+	background-size: contain;
+	padding-top: 100px;
+    background-size: 20%;
+}
+.index-btn{
+	margin: 10px 0px;
+}
+.input-group{
+	margin-top: 5px;
+}
+.triangle{
+	margin: 0 auto;
+	display: block;
+}
