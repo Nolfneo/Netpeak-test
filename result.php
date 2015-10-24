@@ -25,7 +25,7 @@ function getTriangle($a,$b,$c,$link){
 
 					return '<div class="alert alert-success" role="alert">Ответ: A = '.$a.'</div>';
 
-				}elseif($c=$b){
+				}elseif($c==$b){
 
 					return '<div class="alert alert-success" role="alert">Ответ: A = 0 Триугольник не существует</div>';
 
@@ -45,7 +45,7 @@ function getTriangle($a,$b,$c,$link){
 
 					return '<div class="alert alert-success" role="alert">Ответ: B = '.$b.'</div>';
 
-				}elseif($c=$a){
+				}elseif($c==$a){
 
 					return '<div class="alert alert-success" role="alert">Ответ: B = 0 Триугольник не существует</div>';
 
